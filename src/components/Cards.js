@@ -22,8 +22,14 @@ function Cards() {
               path='/services'
             />
           </ul>
-          <ul className='cards__items'>
+            <ul className='cards__items'>
             <CardItem
+              src='images/img-8.jpg'
+              text='Discover the beauty of architectural and historical landmarks'
+              label='Adventure'
+              path='/services'
+            />
+              <CardItem
               src='images/img-3.jpg'
               text='Taste our traditional food, recipes of hundreds of years, aromatic spices, natural products and always cooked with love'
               label='Delicacy'
@@ -37,17 +43,17 @@ function Cards() {
             />
             </ul>
             <ul className='cards__items'>
-            <CardItem
-              src='images/img-8.jpg'
-              text='Discover the beauty of architectural and historical landmarks'
-              label='Adventure'
-              path='/services'
-            />
               <CardItem
               src='images/img-0.jpg'
               text='Visit the high-lying lakes at over 2000 m above sea level'
               label='Adrenaline'
               path='/services'
+            />
+              <CardItem
+              src='images/img-5.jpg'
+              text='Visit the most popular bar in the country'
+              label='Adrenaline'
+              path='/products'
             />
           </ul>
         </div>
